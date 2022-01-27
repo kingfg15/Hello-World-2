@@ -1,0 +1,16 @@
+body{
+  background-color: #00CDA4;
+  color:#AF00F0;
+  font-family: cursive; 
+}
+
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
