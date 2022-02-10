@@ -1,9 +1,14 @@
-body{
-  background-color: #00CDA4;
-  color:#AF00F0;
-  font-family: cursive; 
+:root{
+  --fontcolor: #FFAA00;
 }
-
+#head:hover {
+  color:red;
+  font-family:'Times New Roman', Times, serif;
+}
+body{
+  background-color: salmon;
+  color:var(--fontcolor);
+}
 
 td, th {
   border: 1px solid #dddddd;
@@ -13,4 +18,18 @@ td, th {
 
 tr:nth-child(even) {
   background-color: #dddddd;
+}
+
+.food {
+  color: red; 
+  
+}
+
+img {
+  width:40%;
+  height:40%;
+}
+
+#tablesection{
+  background-color: lightyellow;
 }
